@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">Ambafinance</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_history">History</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_subtitle">Ringkasan Keuangan</string>
+    <string name="total_balance_label">Total Saldo</string>
+    <string name="initial_balance_chip_label">Saldo Awal</string>
+    <string name="total_income_label">Total Pemasukan</string>
+    <string name="total_expense_label">Total Pengeluaran</string>
+    <string name="recent_transactions_title">Transaksi Terbaru</string>
+    <string name="see_all_action">Lihat Semua</string>
+    <string name="add_transaction_fab">Tambah transaksi</string>
+    <string name="toggle_balance_visibility">Sembunyikan atau tampilkan saldo</string>
+    <string name="quick_income">Pemasukan</string>
+    <string name="quick_expense">Pengeluaran</string>
+    <string name="empty_transactions_title">Belum ada transaksi</string>
+    <string name="empty_transactions_subtitle">Catat pemasukan atau pengeluaran pertamamu dengan tombol + di bawah.</string>
+
+    <!-- Forms -->
+    <string name="income_screen_title">Pemasukan &amp; Saldo</string>
+    <string name="expense_screen_title">Catat Pengeluaran</string>
+    <string name="edit_transaction_title">Edit Transaksi</string>
+    <string name="tab_add_income">Tambah Pemasukan</string>
+    <string name="tab_initial_balance">Saldo Awal</string>
+    <string name="amount_label">Nominal</string>
+    <string name="amount_placeholder">0</string>
+    <string name="income_name_label">Nama Pemasukan</string>
+    <string name="income_name_placeholder">Contoh: Gaji Bulanan, Freelance, Bonus</string>
+    <string name="expense_name_label">Nama Pengeluaran</string>
+    <string name="expense_name_placeholder">Ketik nama pengeluaran (mis. Kopi Susu, Makan Siang)</string>
+    <string name="category_label">Kategori</string>
+    <string name="note_label">Catatan (Opsional)</string>
+    <string name="note_placeholder">Tambahkan keterangan singkat...</string>
+    <string name="date_label">Tanggal Transaksi</string>
+    <string name="time_label">Waktu Transaksi</string>
+    <string name="save_income_button">Simpan Pemasukan</string>
+    <string name="save_expense_button">Simpan Pengeluaran</string>
+    <string name="save_changes_button">Simpan Perubahan</string>
+    <string name="save_initial_balance_button">Simpan Saldo Awal</string>
+    <string name="initial_balance_input_label">Nominal Saldo Awal</string>
+    <string name="initial_balance_helper">Saldo akhir dihitung otomatis: Saldo Awal + Pemasukan - Pengeluaran.</string>
+
+    <!-- Validation & Warnings -->
+    <string name="error_amount_empty">Nominal tidak boleh kosong.</string>
+    <string name="error_amount_zero_or_negative">Nominal harus lebih dari 0.</string>
+    <string name="error_name_empty">Nama transaksi wajib diisi.</string>
+    <string name="overdraft_warning_title">Saldo Tidak Mencukupi</string>
+    <string name="overdraft_warning_inline">Nominal pengeluaran melebihi saldo tersedia saat ini.</string>
+    <string name="overdraft_confirm_continue">Tetap Simpan</string>
+    <string name="action_cancel">Batal</string>
+    <string name="action_delete">Hapus</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_confirm">Konfirmasi</string>
+
+    <!-- History -->
+    <string name="history_title">Riwayat Transaksi</string>
+    <string name="search_transactions_placeholder">Cari nama transaksi...</string>
+    <string name="filter_all">Semua</string>
+    <string name="filter_income">Pemasukan</string>
+    <string name="filter_expense">Pengeluaran</string>
+    <string name="period_all">Semua Waktu</string>
+    <string name="period_today">Hari Ini</string>
+    <string name="period_week">7 Hari</string>
+    <string name="period_month">Bulan Ini</string>
+    <string name="period_custom">Pilih Tanggal</string>
+    <string name="history_empty_filtered">Tidak ada transaksi yang cocok dengan pencarian atau filter.</string>
+    <string name="transaction_detail_title">Detail Transaksi</string>
+    <string name="delete_transaction_title">Hapus Transaksi?</string>
+    <string name="delete_transaction_message">Transaksi ini akan dihapus permanen dan total saldo akan dihitung ulang.</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Pengaturan</string>
+    <string name="settings_section_finance">Keuangan</string>
+    <string name="settings_initial_balance">Saldo Awal</string>
+    <string name="settings_currency_format">Format Mata Uang</string>
+    <string name="settings_section_display">Preferensi Tampilan</string>
+    <string name="settings_hide_balance_default">Sembunyikan Saldo Secara Default</string>
+    <string name="settings_compact_list">Tampilan Daftar Ringkas</string>
+    <string name="settings_show_time">Tampilkan Jam pada Riwayat</string>
+    <string name="settings_section_data">Data &amp; Penyimpanan</string>
+    <string name="settings_clear_all_data">Hapus Semua Data Transaksi</string>
+    <string name="clear_all_title">Hapus Semua Data?</string>
+    <string name="clear_all_message">Seluruh riwayat pemasukan dan pengeluaran akan dihapus permanen. Saldo awal juga akan direset ke 0.</string>
+    <string name="settings_section_about">Informasi Aplikasi</string>
+    <string name="settings_app_version">Versi Aplikasi</string>
+    <string name="settings_storage_info">Penyimpanan Lokal (Offline Room SQLite)</string>
+</resources>
